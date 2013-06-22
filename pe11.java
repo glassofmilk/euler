@@ -33,7 +33,7 @@ public class pe11 {
 
 	What is the greatest product of four adjacent numbers in the same direction (up, down, left, right, or diagonally) in the 2020 grid?*/
 	
-	public static final String filePath = "pe11.txt";				//Enter filepath here
+	public static final String FILEPATH = "pe11.txt";				//Enter filepath here
 	
 	public static void main(String[] args) {
 		System.out.println(getAnswer());
@@ -61,7 +61,7 @@ public class pe11 {
 	
 	public static int[][] get2dArray() {							//Returns 2d array
 		int[][] twoDArray = new int[20][20];
-		File file = new File(filePath);								//Creates file from filePath
+		File file = new File(FILEPATH);								//Creates file from filePath
 		BufferedReader br = null;
 		try {														//Wraps file in BufferedReader
 			br = new BufferedReader(new FileReader(file));
