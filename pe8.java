@@ -31,7 +31,7 @@ public class pe8 {
 	05886116467109405077541002256983155200055935729725
 	71636269561882670428252483600823257530420752963450*/
 	
-	public static final String PATH_TO_FILE = "";          //Enter path to pe8.txt here. This is a text file that contains the number above with no whitespace, only newlines
+	public static final String PATH_TO_FILE = "pe8.txt";          //Enter path to pe8.txt here. This is a text file that contains the number above with no whitespace, only newlines
 	
 	public static void main(String[] args) {
 		System.out.println(getAnswer());
